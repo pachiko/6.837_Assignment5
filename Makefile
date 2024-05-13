@@ -6,7 +6,7 @@ PROG = a5
 CFLAGS = -O2 -Wall -Wextra
 
 INCFLAGS = -I /usr/include/vecmath
-LINKFLAGS = -L /usr/local/lib -lvecmath
+LINKFLAGS = -lvecmath
 
 all: $(PROG)
 
